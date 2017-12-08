@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuEvents</name>
+    <events>
+        <event-block sid="114800361512368">
+            <conditions>
+                <condition id="0" name="On clicked" sid="100421952302224" type="NewGameButton" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="915269047386150" type="System">
+                    <param id="0" name="Layout">GameMode</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="281886484809418">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="913446218193918" type="Mouse">
+                    <param id="0" name="Object">NewGameButton</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
