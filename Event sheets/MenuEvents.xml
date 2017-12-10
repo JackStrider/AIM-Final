@@ -3,44 +3,30 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuEvents</name>
     <events>
-        <event-block sid="347567955797438">
+        <event-block sid="291835468262670">
             <conditions>
-                <condition id="6" name="On object clicked" sid="100910557012549" type="Mouse">
+                <condition id="6" name="On object clicked" sid="297143322212143" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Play</param>
+                    <param id="2" name="Object clicked">Instructions_Button</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="874570937101269" type="System">
-                    <param id="0" name="Layout">GameMode</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="181086051772491">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="788459911530618" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Instructions</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="528806281452558" type="System">
+                <action id="-2" name="Go to layout" sid="981859425622354" type="System">
                     <param id="0" name="Layout">Instructions</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="209406903614947">
+        <event-block sid="319490089837418">
             <conditions>
-                <condition id="6" name="On object clicked" sid="710270285244364" type="Mouse">
+                <condition id="6" name="On object clicked" sid="726602526847006" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Options</param>
+                    <param id="2" name="Object clicked">Options_Button</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="736500529260692" type="System">
+                <action id="-2" name="Go to layout" sid="822462662525311" type="System">
                     <param id="0" name="Layout">Options</param>
                 </action>
             </actions>

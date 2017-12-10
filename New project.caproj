@@ -10,6 +10,7 @@
     <unique-id>1isbzoelmz1u</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -195,6 +196,15 @@
         <object-type name="BackButton" sid="458377936282190">
             <plugin id="Button" />
         </object-type>
+        <object-type name="Audio" sid="762673447481479">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Instructions_Button" sid="754577905832420">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Options_Button" sid="340760692735736">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -212,6 +222,20 @@
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
         <global-instance type="Mouse" uid="2" />
+        <global-instance type="Audio" uid="20">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <file name="dustyroom_multimedia_select_digital_button.m4a" />
