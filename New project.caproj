@@ -14,7 +14,6 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
@@ -59,9 +58,6 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="Text" sid="776992904513981">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="Sprite" sid="973164383411377">
             <plugin id="Sprite" />
             <animation-folder>
@@ -80,15 +76,94 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Play" sid="674670637114520">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365652440206366" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\start.png">
+                        <collision-poly>
+                            <point x="0.198889" y="0.298333" />
+                            <point x="0.5" y="0.279167" />
+                            <point x="0.801111" y="0.298333" />
+                            <point x="0.863889" y="0.5" />
+                            <point x="0.723333" y="0.585" />
+                            <point x="0.5" y="0.525" />
+                            <point x="0.299444" y="0.550833" />
+                            <point x="0.118333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Title" sid="232115035228705">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705198323404800" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\title.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.265" />
+                            <point x="0.815556" y="0.276667" />
+                            <point x="0.988889" y="0.5" />
+                            <point x="0.778333" y="0.6675" />
+                            <point x="0.5" y="0.679167" />
+                            <point x="0.232778" y="0.650833" />
+                            <point x="0.0105556" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Instructions" sid="989338316351677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282115036621507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\instruction.png">
+                        <collision-poly>
+                            <point x="0.253889" y="0.380833" />
+                            <point x="0.5" y="0.394167" />
+                            <point x="0.738333" y="0.3925" />
+                            <point x="0.98" y="0.5" />
+                            <point x="0.687778" y="0.531667" />
+                            <point x="0.5" y="0.51" />
+                            <point x="0.320556" y="0.519167" />
+                            <point x="0.0172222" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Options" sid="908603160811067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404997869938429" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\options.png">
+                        <collision-poly>
+                            <point x="0.27" y="0.405" />
+                            <point x="0.5" y="0.338333" />
+                            <point x="0.733333" y="0.4" />
+                            <point x="0.908889" y="0.5" />
+                            <point x="0.720556" y="0.580833" />
+                            <point x="0.5" y="0.590833" />
+                            <point x="0.240556" y="0.639167" />
+                            <point x="0.085" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Menu.xml</layout>
         <layout>GameMode.xml</layout>
+        <layout>Instructions.xml</layout>
+        <layout>Options.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuEvents.xml</event-sheet>
         <event-sheet>GameEvents.xml</event-sheet>
+        <event-sheet>InstructionsEvent.xml</event-sheet>
+        <event-sheet>OptionsEvents.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
