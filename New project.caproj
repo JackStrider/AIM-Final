@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -150,6 +151,49 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Volume" sid="621625143601949">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872735656597240" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\volume.png">
+                        <collision-poly>
+                            <point x="0.265556" y="0.398333" />
+                            <point x="0.5" y="0.5075" />
+                            <point x="0.731667" y="0.4025" />
+                            <point x="0.908889" y="0.5" />
+                            <point x="0.742778" y="0.614167" />
+                            <point x="0.262778" y="0.605833" />
+                            <point x="0.103333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VolumeBar" sid="170942294927466">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="InstructionsList" sid="643285390858941">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900431794165510" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Program Files\GitHub\AimFinal\AIM-Final\AIM Final Assets\assetsfinal\assets\instructiontext.png">
+                        <collision-poly>
+                            <point x="0.0738889" y="0.110833" />
+                            <point x="0.5" y="0.0658333" />
+                            <point x="0.935" y="0.0975" />
+                            <point x="0.974444" y="0.5" />
+                            <point x="0.955" y="0.9325" />
+                            <point x="0.5" y="0.976667" />
+                            <point x="0.0533333" y="0.92" />
+                            <point x="0.0405556" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackButton" sid="458377936282190">
+            <plugin id="Button" />
         </object-type>
     </object-folder>
     <families />

@@ -25,7 +25,25 @@
                     <param id="2" name="Object clicked">Instructions</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-2" name="Go to layout" sid="528806281452558" type="System">
+                    <param id="0" name="Layout">Instructions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="209406903614947">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="710270285244364" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Options</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="736500529260692" type="System">
+                    <param id="0" name="Layout">Options</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OptionsEvents</name>
-    <events />
+    <events>
+        <event-block sid="474842400269783">
+            <conditions>
+                <condition id="0" name="On clicked" sid="675408379621328" type="BackButton" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="374935631218576" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
