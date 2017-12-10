@@ -213,7 +213,9 @@
         <global-instance type="Keyboard" uid="1" />
         <global-instance type="Mouse" uid="2" />
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="dustyroom_multimedia_select_digital_button.m4a" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
