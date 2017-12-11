@@ -10,11 +10,14 @@
     <unique-id>1isbzoelmz1u</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
@@ -205,6 +208,339 @@
         <object-type name="Options_Button" sid="340760692735736">
             <plugin id="Button" />
         </object-type>
+        <object-type name="Start_Button" sid="567303358099145">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="HealthBar_0" sid="527467469557949">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644087667896408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\health0.png">
+                        <collision-poly>
+                            <point x="0.1475" y="0.295" />
+                            <point x="0.5" y="0.315" />
+                            <point x="0.85" y="0.3" />
+                            <point x="0.8975" y="0.5" />
+                            <point x="0.8275" y="0.655" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.165" y="0.67" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthBar_1" sid="562502716156413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273331484827801" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\health1.png">
+                        <collision-poly>
+                            <point x="0.1475" y="0.295" />
+                            <point x="0.5" y="0.315" />
+                            <point x="0.85" y="0.3" />
+                            <point x="0.8975" y="0.5" />
+                            <point x="0.8275" y="0.655" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.165" y="0.67" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthBar_2" sid="938364047710957">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308236633072891" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\health2.png">
+                        <collision-poly>
+                            <point x="0.1475" y="0.295" />
+                            <point x="0.5" y="0.315" />
+                            <point x="0.85" y="0.3" />
+                            <point x="0.8975" y="0.5" />
+                            <point x="0.8275" y="0.655" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.165" y="0.67" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthBar_3" sid="271820635192262">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919109339797909" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\health3.png">
+                        <collision-poly>
+                            <point x="0.1475" y="0.295" />
+                            <point x="0.5" y="0.315" />
+                            <point x="0.85" y="0.3" />
+                            <point x="0.8975" y="0.5" />
+                            <point x="0.8275" y="0.655" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.165" y="0.67" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreP1" sid="719952241972863">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="765578860495777" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\plus.png">
+                        <collision-poly>
+                            <point x="0.283333" y="0.283333" />
+                            <point x="0.5" y="0.133333" />
+                            <point x="0.743333" y="0.256667" />
+                            <point x="0.86" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.266667" y="0.733333" />
+                            <point x="0.136667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreM1" sid="788507948419204">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="701151492629238" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\minus.png">
+                        <collision-poly>
+                            <point x="0.283333" y="0.283333" />
+                            <point x="0.5" y="0.133333" />
+                            <point x="0.743333" y="0.256667" />
+                            <point x="0.86" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.266667" y="0.733333" />
+                            <point x="0.136667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Win1" sid="831384341484081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994471023759959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\youwin.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lose1" sid="267980295020456">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300105259254510" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\youlose.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthBar" sid="993232390398640">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Character1" sid="901084920776202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446919194979722" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0000_o-copy.png">
+                        <collision-poly>
+                            <point x="0.119458" y="0.121548" />
+                            <point x="0.499548" y="0.111419" />
+                            <point x="0.854297" y="0.148252" />
+                            <point x="0.882352" y="0.5" />
+                            <point x="0.859727" y="0.857273" />
+                            <point x="0.499548" y="0.972374" />
+                            <point x="0.094119" y="0.904234" />
+                            <point x="0.121268" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character2" sid="471025191080859">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904962988856079" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0001_o.png">
+                        <collision-poly>
+                            <point x="0.0953113" y="0.0982567" />
+                            <point x="0.499616" y="0.0396197" />
+                            <point x="0.878555" y="0.125198" />
+                            <point x="0.961568" y="0.5" />
+                            <point x="0.936972" y="0.935024" />
+                            <point x="0.499616" y="0.997623" />
+                            <point x="0.0976172" y="0.899366" />
+                            <point x="0.00230592" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character3" sid="948911114840122">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501882762451045" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0002_ェ.png">
+                        <collision-poly>
+                            <point x="0.0553037" y="0.060757" />
+                            <point x="0.499547" y="0" />
+                            <point x="0.901179" y="0.108566" />
+                            <point x="0.693563" y="0.5" />
+                            <point x="0.957389" y="0.953187" />
+                            <point x="0.499547" y="1" />
+                            <point x="0.0915684" y="0.899402" />
+                            <point x="0.307344" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character4" sid="921691379511283">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450832401191672" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0003_e.png">
+                        <collision-poly>
+                            <point x="0.105754" y="0.105345" />
+                            <point x="0.5" y="0.0185902" />
+                            <point x="0.828149" y="0.171185" />
+                            <point x="0.861586" y="0.499613" />
+                            <point x="0.948678" y="0.948877" />
+                            <point x="0.0832037" y="0.917118" />
+                            <point x="0.11042" y="0.499613" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character5" sid="896529408484612">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761046603072795" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0005_u.png">
+                        <collision-poly>
+                            <point x="0.134165" y="0.136184" />
+                            <point x="0.5" y="0.0166271" />
+                            <point x="0.861154" y="0.140934" />
+                            <point x="0.99688" y="0.499604" />
+                            <point x="0.936037" y="0.935075" />
+                            <point x="0.5" y="1" />
+                            <point x="0.143526" y="0.854315" />
+                            <point x="0.0538222" y="0.499604" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character6" sid="670705589304762">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890002914762200" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0004_u-copy.png">
+                        <collision-poly>
+                            <point x="0.115296" y="0.118577" />
+                            <point x="0.499616" y="0.00316206" />
+                            <point x="0.863951" y="0.139921" />
+                            <point x="1" y="0.499605" />
+                            <point x="0.936203" y="0.934387" />
+                            <point x="0.499616" y="1" />
+                            <point x="0.155265" y="0.840316" />
+                            <point x="0.00461184" y="0.499605" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character7" sid="845727973126781">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163609716211984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0006_i.png">
+                        <collision-poly>
+                            <point x="0.2247" y="0.240147" />
+                            <point x="0.5" y="0.114574" />
+                            <point x="0.912521" y="0.0934922" />
+                            <point x="0.697256" y="0.499542" />
+                            <point x="0.697256" y="0.676444" />
+                            <point x="0.5" y="0.990834" />
+                            <point x="0.331904" y="0.64528" />
+                            <point x="0.0111492" y="0.499542" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character8" sid="806962160005283">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453851188321448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0007_i.png">
+                        <collision-poly>
+                            <point x="0.0414428" y="0.0427892" />
+                            <point x="0.499616" y="0.700475" />
+                            <point x="0.891021" y="0.11252" />
+                            <point x="1" y="0.5" />
+                            <point x="0.778204" y="0.770998" />
+                            <point x="0.499616" y="0.995246" />
+                            <point x="0.102072" y="0.894612" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character9" sid="515976871675531">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403512078025305" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0008_a.png">
+                        <collision-poly>
+                            <point x="0.0417376" y="0.043672" />
+                            <point x="0.5" y="0" />
+                            <point x="0.906303" y="0.0980392" />
+                            <point x="1" y="0.5" />
+                            <point x="0.784497" y="0.77451" />
+                            <point x="0.5" y="0.976827" />
+                            <point x="0.0996593" y="0.895722" />
+                            <point x="0.238501" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character10" sid="891451864580201">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196574229582462" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\assetsfinal\final characters\final_0010s_0009_a.png">
+                        <collision-poly>
+                            <point x="0.0869565" y="0.0895009" />
+                            <point x="0.5" y="0.0817556" />
+                            <point x="0.875418" y="0.128227" />
+                            <point x="0.98495" y="0.5" />
+                            <point x="0.961538" y="0.960413" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0986622" y="0.898451" />
+                            <point x="0.00083612" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpawnGrid" sid="994919119635397">
+            <plugin id="Function" />
+        </object-type>
+        <object-type global="1" name="ClickCounterArray" sid="591764168231540">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable name="ClickOne" sid="751413755610480" type="number" />
+                <instance-variable name="ClickTwo" sid="390064845608042" type="number" />
+            </instance-variables>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -236,6 +572,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="SpawnGrid" uid="25" />
     </global-instances>
     <sounds-folder>
         <file name="dustyroom_multimedia_select_digital_button.m4a" />

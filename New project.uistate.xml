@@ -10,13 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Menu</layout>
+        <layout order="0">Menu</layout>
         <layout order="2">GameMode</layout>
         <layout order="4">Instructions</layout>
-        <layout order="5">Options</layout>
+        <layout order="6">Options</layout>
         <event-sheet order="1">MenuEvents</event-sheet>
-        <event-sheet order="3">GameEvents</event-sheet>
-        <event-sheet order="6">InstructionsEvent</event-sheet>
+        <event-sheet active="1" order="3">GameEvents</event-sheet>
+        <event-sheet order="5">InstructionsEvent</event-sheet>
         <event-sheet order="7">OptionsEvents</event-sheet>
     </open-tabs>
     <properties>
@@ -41,5 +41,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Options/" />
         <folder expanded="1" path="animation-folder/Volume/" />
         <folder expanded="1" path="animation-folder/InstructionsList/" />
+        <folder expanded="1" path="animation-folder/HealthBar_0/" />
+        <folder expanded="1" path="animation-folder/HealthBar_1/" />
+        <folder expanded="1" path="animation-folder/HealthBar_2/" />
+        <folder expanded="1" path="animation-folder/HealthBar_3/" />
+        <folder expanded="1" path="animation-folder/ScoreP1/" />
+        <folder expanded="1" path="animation-folder/ScoreM1/" />
+        <folder expanded="1" path="animation-folder/Win1/" />
+        <folder expanded="1" path="animation-folder/Lose1/" />
+        <folder expanded="1" path="animation-folder/Character1/" />
+        <folder expanded="1" path="animation-folder/Character2/" />
+        <folder expanded="1" path="animation-folder/Character3/" />
+        <folder expanded="1" path="animation-folder/Character4/" />
+        <folder expanded="1" path="animation-folder/Character5/" />
+        <folder expanded="1" path="animation-folder/Character6/" />
+        <folder expanded="1" path="animation-folder/Character7/" />
+        <folder expanded="1" path="animation-folder/Character8/" />
+        <folder expanded="1" path="animation-folder/Character9/" />
+        <folder expanded="1" path="animation-folder/Character10/" />
     </folders-expanded>
 </c2uistate>
