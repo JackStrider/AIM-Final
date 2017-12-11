@@ -111,5 +111,16 @@
                 </action>
             </actions>
         </event-block>
+        <comment></comment>
+        <event-block sid="896744987607509">
+            <conditions>
+                <condition id="0" name="On clicked" sid="718571723415180" type="OtherGameButton" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="944942701369655" type="System">
+                    <param id="0" name="Layout">MoveAround</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

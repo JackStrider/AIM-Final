@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MoveAroundEvents</name>
+    <events>
+        <event-block sid="926611977188458">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="910551958868197" type="Player">
+                    <param id="0" name="Object">Character1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="871722347834062" type="FirstCharacter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="863067770361609" type="MessageBox">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="192748865095990" type="UpperFloor">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="589912205044055" type="Character2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="181147347537061" type="System">
+                    <param id="0" name="Object to create">HealthBar_1</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1700</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-15" name="Set visible" sid="598925794611797" type="HealthBar_0">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="308980930839149" type="Character1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895491816714152">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="814261173498770" type="Player">
+                    <param id="0" name="Object">Character2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="109704161279071" type="FirstCharacter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="598501365370095" type="Character2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="555833639104312" type="System">
+                    <param id="0" name="Object to create">HealthBar_2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1700</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-15" name="Set visible" sid="243659248403042" type="HealthBar_1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="658930320427571" type="Character3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="749794038432139" type="LastFloor">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="355396972727514" type="SecondCharacter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="660426888001709">
+            <conditions>
+                <condition id="2" name="Key is down" sid="601023131977049" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="683639737330603" type="Player">
+                    <param id="0" name="Distance">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="818948166798107">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="237557671796179" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="168799231096647" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="8Direction" id="3" name="Set speed" sid="134349241820522" type="Player">
+                    <param id="0" name="Speed">10</param>
+                </action>
+                <action id="-3" name="Create object" sid="457572901862737" type="System">
+                    <param id="0" name="Object to create">HealthBar_0</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1700</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="267726694765873" type="System">
+                    <param id="0" name="Object to create">HealthBar</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1250</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="950480315962235">
+            <conditions>
+                <condition id="2" name="Key is down" sid="127991422847193" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="347444583435780" type="Player">
+                    <param id="0" name="Distance">-5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="947679725823458">
+            <conditions>
+                <condition id="2" name="Key is down" sid="930429166040775" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="988731112934478" type="Player">
+                    <param id="0" name="Angle">270</param>
+                    <param id="1" name="Distance">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="184060988335919">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="471177004615126" type="Player">
+                    <param id="0" name="Object">Character3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="188915122032134" type="Player" />
+                <action id="-15" name="Set visible" sid="625275956092037" type="EndingMessage">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="420193027913833" type="Character3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="675911350580777" type="LastFloor">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="431977998700806" type="System">
+                    <param id="0" name="Object to create">BackButton</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">200</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-15" name="Set visible" sid="638175428378760" type="ThirdCharacter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="563761658150412" type="SecondCharacter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="160822793139972" type="UpperFloor">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="208628432958296" type="HealthBar_2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="695927690212817" type="System">
+                    <param id="0" name="Object to create">HealthBar_3</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1700</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="246926690875497">
+            <conditions>
+                <condition id="0" name="On clicked" sid="824208780418742" type="BackButton" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="431663964565517" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

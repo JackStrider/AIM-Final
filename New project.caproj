@@ -21,7 +21,12 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -541,6 +546,82 @@
                 <instance-variable name="ClickTwo" sid="390064845608042" type="number" />
             </instance-variables>
         </object-type>
+        <object-type name="Floors" sid="453349102198636">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="995971502881226">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498145577148850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="295462689899923">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="574876629238637">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="822654141054876">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="492420275263184">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894109721049030" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MessageBox" sid="387578180837749">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="UpperFloor" sid="399283973412688">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="172211198824388">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893202353577575" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FirstCharacter" sid="513471077449542">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EndingMessage" sid="367792768299750">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SecondCharacter" sid="480332328722770">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LastFloor" sid="425492712760264">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="975094417244129">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219132296681962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ThirdCharacter" sid="119149222214202">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="OtherGameButton" sid="331464662371378">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -548,12 +629,14 @@
         <layout>GameMode.xml</layout>
         <layout>Instructions.xml</layout>
         <layout>Options.xml</layout>
+        <layout>MoveAround.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MenuEvents.xml</event-sheet>
         <event-sheet>GameEvents.xml</event-sheet>
         <event-sheet>InstructionsEvent.xml</event-sheet>
         <event-sheet>OptionsEvents.xml</event-sheet>
+        <event-sheet>MoveAroundEvents.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
