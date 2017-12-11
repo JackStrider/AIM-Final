@@ -29,6 +29,116 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="GameBackground" uid="45">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>953</x>
+                        <y>539.068054199</y>
+                        <z>0</z>
+                        <width>1932</width>
+                        <height>1102</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="WinningBackground" uid="72">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>925</x>
+                        <y>1844</y>
+                        <z>0</z>
+                        <width>1933</width>
+                        <height>1096</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CharacterBackground3" uid="71">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1680</x>
+                        <y>912</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>300</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CharacterBackground2" uid="70">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1445</x>
+                        <y>419</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>300</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CharacterBackground1" uid="69">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>270</x>
+                        <y>689</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>300</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50333333</hotspotX>
+                        <hotspotY>0.50333333</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Floors" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -100,11 +210,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>131</x>
-                        <y>997</y>
+                        <x>157.714355469</x>
+                        <y>1017.714355469</y>
                         <z>0</z>
-                        <width>130.47605896</width>
-                        <height>130.47605896</height>
+                        <width>210</width>
+                        <height>198</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -149,7 +259,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1682</x>
+                        <x>1686</x>
                         <y>915</y>
                         <z>0</z>
                         <width>200</width>
@@ -171,8 +281,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>269</x>
-                        <y>696</y>
+                        <x>270</x>
+                        <y>683</y>
                         <z>0</z>
                         <width>200</width>
                         <height>200</height>
@@ -200,10 +310,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>273</x>
-                        <y>824</y>
+                        <x>268.5</x>
+                        <y>853</y>
                         <z>0</z>
-                        <width>250</width>
+                        <width>275</width>
                         <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -214,7 +324,7 @@
                 </instance>
                 <instance type="FirstCharacter" uid="44">
                     <properties>
-                        <text>The first character means &quot;  &quot;</text>
+                        <text>The first character translates to &quot;O&quot;.</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Berlin Sans FB Demi,-48,700,0</font>
                         <color>255,204,0</color>
@@ -227,38 +337,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>590</x>
-                        <y>56</y>
+                        <x>527</x>
+                        <y>54</y>
                         <z>0</z>
-                        <width>721</width>
+                        <width>814</width>
                         <height>56</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EndingMessage" uid="45">
-                    <properties>
-                        <text>Congratulations, You Won!</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Berlin Sans FB Demi,-131,700,0</font>
-                        <color>255,204,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>167</x>
-                        <y>402.5</y>
-                        <z>0</z>
-                        <width>1586</width>
-                        <height>275</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -268,7 +351,7 @@
                 </instance>
                 <instance type="SecondCharacter" uid="46">
                     <properties>
-                        <text>The second character means &quot;  &quot;</text>
+                        <text>The second character translates to &quot;O&quot;.</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Berlin Sans FB Demi,-48,700,0</font>
                         <color>255,204,0</color>
@@ -281,10 +364,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>579</x>
+                        <x>513</x>
                         <y>54</y>
                         <z>0</z>
-                        <width>712</width>
+                        <width>890</width>
                         <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -398,10 +481,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1444</x>
-                        <y>569</y>
+                        <x>1447.5</x>
+                        <y>576</y>
                         <z>0</z>
-                        <width>250</width>
+                        <width>287</width>
                         <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -420,8 +503,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1439</x>
-                        <y>441</y>
+                        <x>1451</x>
+                        <y>404</y>
                         <z>0</z>
                         <width>200</width>
                         <height>200</height>
@@ -434,7 +517,7 @@
                 </instance>
                 <instance type="ThirdCharacter" uid="53">
                     <properties>
-                        <text>The third character translates to &quot;   &quot;</text>
+                        <text>The third character translates to &quot;E&quot;.</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Berlin Sans FB Demi,-48,700,0</font>
                         <color>255,204,0</color>
@@ -447,8 +530,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>568</x>
-                        <y>66</y>
+                        <x>553</x>
+                        <y>64</y>
                         <z>0</z>
                         <width>865</width>
                         <height>44</height>
@@ -496,6 +579,101 @@
                         <z>0</z>
                         <width>300</width>
                         <height>300</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Block" uid="68">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>177</x>
+                        <y>-166</y>
+                        <z>0</z>
+                        <width>191</width>
+                        <height>191</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="RestartButton" uid="73">
+                    <properties>
+                        <type>Button</type>
+                        <text></text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2123</x>
+                        <y>-330</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="RestartText" uid="78">
+                    <properties>
+                        <text>Restart</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-48,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2132</x>
+                        <y>-189</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>81</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Win1" uid="79">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2732</x>
+                        <y>591</y>
+                        <z>0</z>
+                        <width>576</width>
+                        <height>588</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

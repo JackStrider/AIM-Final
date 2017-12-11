@@ -574,7 +574,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894109721049030" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\Untitled122_20171204155747.png">
+                        <collision-poly>
+                            <point x="0.308594" y="0.246875" />
+                            <point x="0.5" y="0.165625" />
+                            <point x="0.691406" y="0.246875" />
+                            <point x="0.819824" y="0.5" />
+                            <point x="0.665039" y="0.732031" />
+                            <point x="0.339355" y="0.728516" />
+                            <point x="0.180176" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -621,6 +631,78 @@
         </object-type>
         <object-type name="OtherGameButton" sid="331464662371378">
             <plugin id="Button" />
+        </object-type>
+        <object-type name="Block" sid="372963104664824">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737616266350647" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CharacterBackground1" sid="197054430663783">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="412351437001984" speed="5">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.503333" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\background1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WinningBackground" sid="283234973891367">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122012050218549" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\background3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CharacterBackground2" sid="441338563239909">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826057075469900" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\background2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CharacterBackground3" sid="523134153309900">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958489420472804" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\background3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HappyPeople1" sid="110866393030330">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593927191878437" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\alexander.nigl\Desktop\Final\AIM-Final\AIM Final Assets\Untitled123_20171204160717.png">
+                        <collision-poly>
+                            <point x="0.308594" y="0.246875" />
+                            <point x="0.5" y="0.165625" />
+                            <point x="0.691406" y="0.246875" />
+                            <point x="0.866211" y="0.5" />
+                            <point x="0.691406" y="0.753125" />
+                            <point x="0.305664" y="0.755469" />
+                            <point x="0.133789" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RestartButton" sid="838441351256165">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="RestartText" sid="231849967516760">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GameBackground" sid="591320762103096">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="936042262687543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

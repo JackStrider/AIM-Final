@@ -34,11 +34,11 @@
                 <action id="-15" name="Set visible" sid="308980930839149" type="Character1">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-3" name="Create object" sid="688210177983686" type="System">
-                    <param id="0" name="Object to create">ScoreP1</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">200</param>
-                    <param id="3" name="Y">200</param>
+                <action id="-15" name="Set visible" sid="320785693257228" type="CharacterBackground1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="928297657109361" type="CharacterBackground3">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
@@ -73,11 +73,17 @@
                 <action id="-15" name="Set visible" sid="355396972727514" type="SecondCharacter">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-3" name="Create object" sid="787867809572487" type="System">
-                    <param id="0" name="Object to create">ScoreP1</param>
+                <action id="-3" name="Create object" sid="348178304645318" type="System">
+                    <param id="0" name="Object to create">Block</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">201</param>
-                    <param id="3" name="Y">201</param>
+                    <param id="2" name="X">900</param>
+                    <param id="3" name="Y">450</param>
+                </action>
+                <action id="-15" name="Set visible" sid="326712240350072" type="CharacterBackground2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="619754157740896" type="CharacterBackground1">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
@@ -160,12 +166,6 @@
                 <action id="-15" name="Set visible" sid="675911350580777" type="LastFloor">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-3" name="Create object" sid="431977998700806" type="System">
-                    <param id="0" name="Object to create">BackButton</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">200</param>
-                    <param id="3" name="Y">200</param>
-                </action>
                 <action id="-15" name="Set visible" sid="638175428378760" type="ThirdCharacter">
                     <param id="0" name="Visibility">1</param>
                 </action>
@@ -184,22 +184,72 @@
                     <param id="2" name="X">1700</param>
                     <param id="3" name="Y">250</param>
                 </action>
-                <action id="-3" name="Create object" sid="786258120582796" type="System">
-                    <param id="0" name="Object to create">ScoreP1</param>
+                <action id="-9" name="Destroy" sid="921878615844972" type="ScoreP1" />
+                <action id="-9" name="Destroy" sid="573467287573148" type="Block" />
+                <action id="-15" name="Set visible" sid="961706926819941" type="CharacterBackground2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="210113283622676" type="Win1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="206922007591685" type="System">
+                    <param id="0" name="Object to create">WinningBackground</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">202</param>
-                    <param id="3" name="Y">202</param>
+                    <param id="2" name="X">950</param>
+                    <param id="3" name="Y">450</param>
+                </action>
+                <action id="-3" name="Create object" sid="495965610497964" type="System">
+                    <param id="0" name="Object to create">Win1</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">950</param>
+                    <param id="3" name="Y">550</param>
+                </action>
+                <action id="-3" name="Create object" sid="425289844058074" type="System">
+                    <param id="0" name="Object to create">RestartButton</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">840</param>
+                    <param id="3" name="Y">477</param>
+                </action>
+                <action id="-3" name="Create object" sid="966379059728014" type="System">
+                    <param id="0" name="Object to create">RestartText</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">840</param>
+                    <param id="3" name="Y">477</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="246926690875497">
+        <event-block sid="142007366170279">
             <conditions>
-                <condition id="0" name="On clicked" sid="824208780418742" type="BackButton" />
+                <condition id="0" name="On collision with another object" sid="100389350861777" type="Player">
+                    <param id="0" name="Object">Block</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="431663964565517" type="System">
-                    <param id="0" name="Layout">Menu</param>
-                </action>
+                <action id="-26" name="Restart layout" sid="412872896605511" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="248659212410497">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="777722285818395" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">RestartButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="862559923980239" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="599118044510827">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="839799700153982" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">RestartText</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="523905460981857" type="System" />
             </actions>
         </event-block>
     </events>
